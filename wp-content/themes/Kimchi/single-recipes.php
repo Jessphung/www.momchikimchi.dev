@@ -12,8 +12,14 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 	
 				<?php get_template_part( 'content', get_post_format() );
-				
+			
+			
+			echo types_render_field("my-recipes", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));
 				 ?>
+                 
+                 
+                 
+               
 	
 				<div id="posts-pagination" class="clearfix">
 					<h3 class="sr-only"><?php _e( 'Post navigation', 'farben' ); ?></h3>
