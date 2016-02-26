@@ -12,7 +12,7 @@
  /* == Add your own styles below this line ==
 --------------------------------------------*/
 
-/* Portfolio posts */
+/* Portfolio posts Template */
 
 .portfolio {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.75);
@@ -41,5 +41,7 @@
   margin: 0 0 15px;
   padding-bottom: 15px;
 }
+/* Ends Here */
 
+.goobers{ color: #149374;}
 

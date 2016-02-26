@@ -14,20 +14,18 @@
 }
   			?>
     </div>
-	
-
-	<div class="entry-content">
-		<?php the_content(); ?>
-		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'striker' ), 'after' => '</div>' ) ); ?>
-	</div><!-- .entry-content -->
-    
-    <header class="entry-header">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+	<header class="entry-header">
+		<h1 class="entry-title goobers"><?php the_title(); ?></h1>
 
 		<div class="entry-meta">
 			<?php striker_posted_on(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<?php the_content(); ?>
+		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'striker' ), 'after' => '</div>' ) ); ?>
+	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
 		<?php
