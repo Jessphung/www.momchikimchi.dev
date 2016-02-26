@@ -11,7 +11,7 @@
 
 	</div><!-- #main .site-main -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer feet" role="contentinfo">
         <div class="site-info">
             <a href="<?php $my_theme = wp_get_theme(); echo $my_theme->get( 'ThemeURI' ); ?>">
             <?php _e('MOMCHI','striker'); ?></a>

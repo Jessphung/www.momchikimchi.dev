@@ -55,11 +55,14 @@
 			</a>
 		<?php } // if ( ! empty( $header_image ) ) ?>
 
-		<nav role="navigation" class="site-navigation main-navigation">
-			<h1 class="assistive-text"><?php _e( 'Menu', 'striker' ); ?></h1>
-			<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'striker' ); ?>"><?php _e( 'Skip to content', 'striker' ); ?></a></div>
-
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		<nav role="navigation" >
+            <div class='ribbon'>
+            <a href='#'><span>Home</span></a>
+            <a href='#'><span>About</span></a>
+            <a href='#'><span>Services</span></a>
+            <a href='#'><span>Contact</span></a>
+</div>
+		
 		</nav><!-- .site-navigation .main-navigation -->
 	</header><!-- #masthead .site-header -->
 
