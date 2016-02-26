@@ -54,13 +54,14 @@
 				<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
 			</a>
 		<?php } // if ( ! empty( $header_image ) ) ?>
+        
 
-		<nav role="navigation" >
+		<nav role="navigation"  class="site-navigation main-navigation">
             <div class='ribbon'>
-            <a href='#'><span>Home</span></a>
-            <a href='#'><span>About</span></a>
-            <a href='#'><span>Services</span></a>
-            <a href='#'><span>Contact</span></a>
+            <a href=' http://www.momchikimchi.dev/'><span>Home</span></a> 
+            <a href='http://www.momchikimchi.dev/about/'><span>About</span></a>
+            <a href='http://www.momchikimchi.dev/tester/'><span>Tester</span></a>
+            <a href='#'><span>Contact</span></a></li>
 </div>
 		
 		</nav><!-- .site-navigation .main-navigation -->

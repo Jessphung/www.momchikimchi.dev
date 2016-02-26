@@ -47,7 +47,11 @@
 .feet{ letter-spacing: 0.5px;
        color: #149374;}
 
-/* Nav */ 
+/* Nav  Ribbon*/ 
+.ribbon {
+    font-family: "bebas_neueregular",sans-serif;
+	letter-spacing: 0.5px;
+}
 
 .ribbon:after, .ribbon:before {
     margin-top:0.5em;
@@ -65,12 +69,14 @@
 }
 
 .ribbon a:link, .ribbon a:visited { 
-    color:#7C7F90;
+    color:#fff;
     text-decoration:none;
     float:left;
     height:3.5em;
     overflow:hidden;
 }
+
+
 
 .ribbon span {
     background:#000;
@@ -88,7 +94,7 @@
 }
 
 .ribbon a:hover span {
-    background:#FFD204;
+    background:#F6725E;
     margin-top:0;
 }
 
