@@ -127,3 +127,11 @@
     color: #eae8a5;
 }
 
+#circle {
+    width: 120px;
+    height: 120px;
+    background: #7fee1d;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}

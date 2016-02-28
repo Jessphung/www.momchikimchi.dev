@@ -60,7 +60,7 @@
           <ul class="nav">
     <li><a href="http://www.momchikimchi.dev"><span>Home</span></a></li>
     <li><a href="http://www.momchikimchi.dev/about/"><span>About</span></a></li>
-    <li><a href="#"><span>Blog</span></a></li>
+   <!--- <div id= "circle"> </div>-->
     <li><a href="#"><span>Services</span></a></li>
     <li><a href="#"><span>Contact</span></a></li>
 </ul>

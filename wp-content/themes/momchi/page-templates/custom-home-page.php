@@ -15,8 +15,7 @@ get_header(); ?>
         <div id="primary_home" class="content-area">
 			<div id="content" class="fullwidth" role="main">
 
-                  <div class="row">
-   <div class="circleBase type3"> <img src="http://www.momchikimchi.dev/wp-content/uploads/2016/02/checheh_kimchi.jpg" alt="Kimchi"></div>
+              
 
      <div class="featuretext">
 			 <h3><?php echo esc_attr( get_theme_mod( 'featured_textbox' ) ); ?></h3>
