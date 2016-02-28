@@ -56,14 +56,14 @@
 		<?php } // if ( ! empty( $header_image ) ) ?>
         
 
-		<nav role="navigation"  class="site-navigation main-navigation">
-            <div class='ribbon'>
-            <a href=' http://www.momchikimchi.dev/'><span>Home</span></a> 
-            <a href='http://www.momchikimchi.dev/about/'><span>About</span></a>
-            <a href='http://www.momchikimchi.dev/tester/'><span>Tester</span></a>
-            <a href='#'><span>Contact</span></a></li>
-</div>
-		
+		<nav role="navigation" >
+          <ul class="nav">
+    <li><a href="http://www.momchikimchi.dev"><span>Home</span></a></li>
+    <li><a href="http://www.momchikimchi.dev/about/"><span>About</span></a></li>
+    <li><a href="#"><span>Blog</span></a></li>
+    <li><a href="#"><span>Services</span></a></li>
+    <li><a href="#"><span>Contact</span></a></li>
+</ul>
 		</nav><!-- .site-navigation .main-navigation -->
 	</header><!-- #masthead .site-header -->
 
